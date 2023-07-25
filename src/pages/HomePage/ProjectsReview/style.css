@@ -1,0 +1,51 @@
+.projects-review {
+  display: flex;
+  flex-wrap: wrap;
+  width: 65vw;
+  height: 65vw;
+  justify-content: space-evenly;
+  /* border: 1px solid black; */
+}
+
+.projects-review__project {
+  width: 20vw;
+  height: 20vw;
+  border: none;
+  cursor: pointer;
+}
+
+.project1 {
+  background: #e3d8d8;
+}
+
+.project2 {
+  background: #d1c0bf;
+}
+
+.project3 {
+  background: #c6cbb3;
+}
+
+.project4 {
+  background: #c7b5b8;
+}
+
+.project5 {
+  background: #F3E7EC;
+}
+
+.project6 {
+  background: #949D6A;
+}
+
+.project7 {
+  background: #F3E7EC;
+}
+
+.project8 {
+  background: #CCD5AE;
+}
+
+.projects-review__btn {
+  background-color: #937270;
+}

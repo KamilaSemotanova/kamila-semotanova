@@ -1,0 +1,29 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100vw;
+  height: 2.5rem;
+  background: #CCD5AE;
+  background-size: cover;
+  font-family: 'Karla', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__logobox {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer__logo-github {
+  width: 1.5rem;
+}
+
+.footer__logo-linkedin {
+  width: 2rem;
+}

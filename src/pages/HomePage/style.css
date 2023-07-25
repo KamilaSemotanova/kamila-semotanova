@@ -1,0 +1,11 @@
+.homepage {
+  align-items: center;
+  background-color: #f3f4ed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hopmepage__projects {
+  display: flex;
+  justify-content: center;
+}

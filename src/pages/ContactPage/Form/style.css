@@ -1,0 +1,50 @@
+.form {
+  position: relative;
+  top: 10rem;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding: 2rem;
+  border: 1px solid black;
+  height: 30vh;
+  width: 100vw;
+
+
+  font-family: "Karla", sans-serif;
+  font-size: 1em;
+}
+
+.form__label {
+  margin-bottom: 10px;
+  color: #3B3923;
+}
+
+.form__input {
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.form__message {
+  height: 4rem;
+}
+
+.form__input,
+.form__message {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+
+  border-color: #3B3923;
+  border-radius: 10px;
+}
+
+input[type="submit"] {
+  background-color: #3B3923;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
