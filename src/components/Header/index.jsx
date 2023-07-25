@@ -22,6 +22,7 @@ export const Header = () => {
   return (
     <header className="header">
       <h1 className="header__title">Kamila Semotánová</h1>
+      <img src="" alt="" />
       <ul className="header__menu--pc">
         <li>
           <Link to={'/'} className="menu__box-item">
