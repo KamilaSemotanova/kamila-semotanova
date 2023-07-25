@@ -1,14 +1,17 @@
 .header {
   padding: 1rem;
   background-size: cover;
+  background-color: white;
   width: 100vw;
   height: auto;
 
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   height: 5vh;
+
+  position: sticky;
+  top: 0;
 }
 
 .header__title {
@@ -59,11 +62,26 @@
 
 @media (min-width: 933px) {
   .header {
+    flex-direction: column;
     height: 35vh;
+    position: unset;
+  }
+
+  .header__title {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    text-align: center;
+    height: 40px;
+    background-color: white;
   }
 
   .header__menu--phone {
     display: none;
+  }
+
+  .header__menu--pc li:hover {
+    text-decoration: underline;
   }
 
   .header__photo {
@@ -71,8 +89,18 @@
     background-image: url("./img/kami.jpeg");
     background-size: cover;
     border-radius: 100%;
+    margin-top: 40px;
     height: 20vh;
     width: 20vh;
+  }
+
+  .header__navigation {
+    position: fixed;
+    top: 40px;
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
   }
 
   .header__menu--pc {
@@ -83,4 +111,5 @@
     text-transform: uppercase;
     letter-spacing: 1px;
   }
+
 }

@@ -6,6 +6,7 @@
   background-color: #ffffff;
   width: 100vw;
   z-index: 10;
+  border-bottom: 1px solid #949d94;
 }
 
 .menu__box ul li {
@@ -18,7 +19,7 @@
 }
 
 .menu__box ul li:hover {
-  background-color: #CCD5AE;
+  background-color: #e1e6cf;
 }
 
 .menu__box a {

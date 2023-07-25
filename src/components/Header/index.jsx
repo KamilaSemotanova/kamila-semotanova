@@ -22,29 +22,31 @@ export const Header = () => {
   return (
     <header className="header">
       <h1 className="header__title">Kamila Semotánová</h1>
+      <nav className="header__navigation">
+        <ul className="header__menu--pc">
+          <li>
+            <Link to={'/'} className="menu__box-item">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to={'/about'} className="menu__box-item">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to={'/projects'} className="menu__box-item">
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link to={'/contact'} className="menu__box-item">
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </nav>
       <div className="header__photo"> </div>
-      <ul className="header__menu--pc">
-        <li>
-          <Link to={'/'} className="menu__box-item">
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link to={'/about'} className="menu__box-item">
-            About
-          </Link>
-        </li>
-        <li>
-          <Link to={'/projects'} className="menu__box-item">
-            Projects
-          </Link>
-        </li>
-        <li>
-          <Link to={'/contact'} className="menu__box-item">
-            Contact
-          </Link>
-        </li>
-      </ul>
       <div className="header__menu--phone">
         <button className="header__menu-btn" onClick={handleMenuToggle}>
           {menuOpen ? (
