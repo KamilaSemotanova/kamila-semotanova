@@ -64,7 +64,7 @@
 @media (min-width: 501px) {
   .header {
     flex-direction: column;
-    height: 35vh;
+    height: 15vh;
     position: unset;
   }
 
