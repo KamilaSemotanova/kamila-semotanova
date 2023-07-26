@@ -5,7 +5,8 @@
   height: 100vh;
 }
 
-.hopmepage__projects {
+.hopmepage__container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }

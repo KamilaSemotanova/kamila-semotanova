@@ -1,0 +1,9 @@
+.home-about__photo {
+  display: flex;
+  background-image: url("./img/kami.jpeg");
+  background-size: cover;
+  border-radius: 100%;
+  margin-top: 40px;
+  height: 20vh;
+  width: 20vh;
+}

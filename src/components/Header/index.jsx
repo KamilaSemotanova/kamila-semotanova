@@ -46,7 +46,6 @@ export const Header = () => {
           </li>
         </ul>
       </nav>
-      <div className="header__photo"> </div>
       <div className="header__menu--phone">
         <button className="header__menu-btn" onClick={handleMenuToggle}>
           {menuOpen ? (
