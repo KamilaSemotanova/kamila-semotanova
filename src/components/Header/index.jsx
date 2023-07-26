@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Menu } from './Burgermenu';
 import './style.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,24 +25,60 @@ export const Header = () => {
       <nav className="header__navigation">
         <ul className="header__menu--pc">
           <li>
-            <Link to={'/'} className="menu__box-item">
+            <NavLink
+              to={'/'}
+              className={({ isActive, isPending }) =>
+                isPending
+                  ? 'pending menu__box-item'
+                  : isActive
+                  ? 'active menu__box-item'
+                  : 'menu__box-item'
+              }
+            >
               Home
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to={'/about'} className="menu__box-item">
+            <NavLink
+              to={'/about'}
+              className={({ isActive, isPending }) =>
+                isPending
+                  ? 'pending menu__box-item'
+                  : isActive
+                  ? 'active menu__box-item'
+                  : 'menu__box-item'
+              }
+            >
               About
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to={'/projects'} className="menu__box-item">
+            <NavLink
+              to={'/projects'}
+              className={({ isActive, isPending }) =>
+                isPending
+                  ? 'pending menu__box-item'
+                  : isActive
+                  ? 'active menu__box-item'
+                  : 'menu__box-item'
+              }
+            >
               Projects
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to={'/contact'} className="menu__box-item">
+            <NavLink
+              to={'/contact'}
+              className={({ isActive, isPending }) =>
+                isPending
+                  ? 'pending menu__box-item'
+                  : isActive
+                  ? 'active menu__box-item'
+                  : 'menu__box-item'
+              }
+            >
               Contact
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </nav>

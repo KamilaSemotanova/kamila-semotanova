@@ -1,6 +1,7 @@
 .home-about {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .home-about__textbox {

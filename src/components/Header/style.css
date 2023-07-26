@@ -84,9 +84,15 @@
     display: none;
   }
 
-  .header__menu--pc li:hover {
+  .menu__box-item {
+    text-decoration: none;
+  }
+
+  .active {
     border-bottom: 1.5px solid #3B3923;
   }
+
+  .header__menu--pc li:hover {}
 
   .header__navigation {
     position: fixed;
