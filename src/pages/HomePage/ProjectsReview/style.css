@@ -9,12 +9,11 @@
 }
 
 .projects-review__box {
-  display: grid;
-  grid-template-columns: 35vw 25vw 20vw;
-  grid-template-rows: 30vh 5vh 35vh;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
   width: 80vw;
+  border-radius: 20px;
 }
 
 .projects-review__title {
@@ -24,17 +23,18 @@
 
 .projects-review__project {
   background: white;
-  /* border: 1px solid #3B3923; */
   border: none;
+  border-radius: 2px;
   -webkit-box-shadow: 0px 0px 10px 0px #C2CFB2;
   -moz-box-shadow: 0px 0px 10px 0px #C2CFB2;
   box-shadow: 0px 0px 10px 0px #C2CFB2;
   cursor: pointer;
+  width: 25vw;
+  height: 25vw;
 }
 
 .project1 {
-  background-color: #ffb4a2;
-  grid-area: 1 / 1 / 3 / 2;
+  background-color: #213d26;
 }
 
 .project1:hover {
@@ -42,7 +42,7 @@
 }
 
 .project2 {
-  background-color: #e5989b;
+  background-color: #404932;
   grid-area: 3 / 1 / 3 / 2;
 }
 
@@ -51,25 +51,25 @@
 }
 
 .project3 {
-  background-color: #b5838d;
+  background-color: #353c26;
   grid-area: 1 / 2 / 4 / 3;
 }
 
 .project3:hover {
-  background: #c6cbb3;
+  background: #e3d8d8;
 }
 
 .project4 {
-  background-color: #e5989b;
+  background-color: #132a13;
   grid-area: 1 / 3 / 2 / 4;
 }
 
 .project4:hover {
-  background: #c7b5b8;
+  background: #d1c0bf;
 }
 
 .project5 {
-  background-color: #f4acb7;
+  background-color: #213d26;
   grid-area: 2 / 3 / 4 / 4;
 }
 

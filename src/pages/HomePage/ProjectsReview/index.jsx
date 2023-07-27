@@ -5,18 +5,17 @@ import { Link } from 'react-router-dom';
 export const ProjectsReview = () => {
   return (
     <section className="projects-review">
-      <h2 className='projects-review__title'>Projects</h2>
+      <h2 className="projects-review__title">Projects</h2>
       <section className="projects-review__box">
-        <button className="projects-review__project project1">1</button>
+        <button className="projects-review__project project1">
+          <span class="material-symbols-outlined">celebration</span>
+        </button>
         <button className="projects-review__project project2">2</button>
         <button className="projects-review__project project3">3</button>
         <button className="projects-review__project project4">4</button>
         <button className="projects-review__project project5">5</button>
       </section>
-      <Link
-        to="/projects"
-        className="projects-review__project projects-review__btn"
-      >
+      <Link to="/projects" className="projects-review__btn">
         More projects
       </Link>
     </section>
