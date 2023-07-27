@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export const ProjectsReview = () => {
   return (
     <section className="projects-review">
-      <h2>Projects</h2>
+      <h2 className='projects-review__title'>Projects</h2>
       <section className="projects-review__box">
         <button className="projects-review__project project1">1</button>
         <button className="projects-review__project project2">2</button>
@@ -17,7 +17,7 @@ export const ProjectsReview = () => {
         to="/projects"
         className="projects-review__project projects-review__btn"
       >
-        Více projektů
+        More projects
       </Link>
     </section>
   );
