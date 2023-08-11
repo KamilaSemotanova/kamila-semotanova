@@ -1,7 +1,7 @@
 .header {
   padding: 1rem;
   background-size: cover;
-  background-color: #f8f4f0;
+  background-color: #f7f6f4;
   width: 100vw;
   height: auto;
 
@@ -32,7 +32,7 @@
 
 .header__menu-btn {
   border: none;
-  background-color: #f8f4f0;
+  background-color: #f7f6f4;
 }
 
 .header__menu-item {
@@ -71,7 +71,7 @@
     font-size: 28px;
     font-weight: 700;
     padding-top: 20px;
-    background-color: #f8f4f0;
+    background-color: #f7f6f4;
   }
 
   .header__menu--phone {
@@ -93,7 +93,7 @@
   .header__navigation {
     position: fixed;
     top: 60px;
-    background-color: #f8f4f0;
+    background-color: #f7f6f4;
     width: 100vw;
     height: 38px;
     margin-bottom: 20px;

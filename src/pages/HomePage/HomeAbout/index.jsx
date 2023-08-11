@@ -5,21 +5,20 @@ import './style.css';
 export const HomeAbout = () => {
   return (
     <section className="home-about">
-      <div className="home-about__hue">
-        <div className="home-about__textbox">
-          <h2>Hello, my name is Kamila!</h2>
+      <div className="home-about__photo"></div>
+      <div className="home-about__textbox">
+        <div>
+          <h2 className="home-about__greeting">Hello,</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-            praesentium in voluptatem, quaerat ex, eum consectetur aperiam
-            similique non, corporis recusandae alias modi laudantium sed
-            voluptatum maxime vero repudiandae reiciendis ipsa dolorum aliquam
-            assumenda ipsam.
+            I am an enthusiastic Junior Front-End Developer with a blend of
+            skills that extend seamlessly into the realm of UX/UI. My meticulous
+            attention to detail, coupled with an insatiable eagerness to learn,
+            sets me apart in my pursuit of excellence.
           </p>
-          <Link to={'/about'} className="home-about__btn">
-            {' '}
-            More about me
-          </Link>
         </div>
+        <Link to={'/about'} className="home-about__btn">
+          More about me
+        </Link>
       </div>
     </section>
   );
