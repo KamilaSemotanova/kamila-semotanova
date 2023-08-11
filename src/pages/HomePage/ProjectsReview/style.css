@@ -10,9 +10,9 @@
 
 .projects-review__box {
   display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  width: 80vw;
+  flex-direction: column;
+  gap: 20px;
+  width: 85vw;
   border-radius: 20px;
 }
 
@@ -24,17 +24,20 @@
 .projects-review__project {
   color: white;
   border: none;
-  border-radius: 2px;
+  border-radius: 10px;
   -webkit-box-shadow: 0px 0px 10px 0px #C2CFB2;
   -moz-box-shadow: 0px 0px 10px 0px #C2CFB2;
   box-shadow: 0px 0px 10px 0px #C2CFB2;
   cursor: pointer;
-  width: 25vw;
+  width: 85vw;
   height: 25vw;
 }
 
 .projects-review__project:hover {
   color: #3B3923;
+  -webkit-box-shadow: 0px 0px 10px 0px #d3cbc3;
+  -moz-box-shadow: 0px 0px 10px 0px #d3cbc3;
+  box-shadow: 0px 0px 10px 0px #d3cbc3;
 }
 
 .project1 {
@@ -42,7 +45,7 @@
 }
 
 .project1:hover {
-  background: #e3d8d8;
+  background: #d3cbc3;
 }
 
 .project2 {
@@ -50,7 +53,7 @@
 }
 
 .project2:hover {
-  background: #d1c0bf;
+  background: #d3cbc3;
 }
 
 .project3 {
@@ -58,33 +61,34 @@
 }
 
 .project3:hover {
-  background: #e3d8d8;
-}
-
-.project4 {
-  background-color: #132a13;
-}
-
-.project4:hover {
-  background: #d1c0bf;
-}
-
-.project5 {
-  background-color: #213d26;
-}
-
-.project5:hover {
-  background: #F3E7EC;
+  background: #d3cbc3;
 }
 
 .projects-review__btn {
   color: #3B3923;
-  background-color: #f2f3ec;
+  padding: 5px 8px;
+  border: 0.3px solid #3B3923;
+  border-radius: 3px;
+  background-color: #f7f6f4;
   text-decoration: none;
   text-transform: uppercase;
 }
 
 .projects-review__btn:hover {
   cursor: pointer;
-  border-bottom: 1px solid #3B3923;
+  border: 1px solid #f7f6f4;
+  color: #f7f6f4;
+  background-color: #3B3923;
+}
+
+@media (min-width: 601px) {
+  .projects-review__box {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .projects-review__project {
+    width: calc((85vw - 40px)/3);
+    height: calc((85vw - 40px)/3);
+  }
 }

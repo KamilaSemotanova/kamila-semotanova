@@ -14,7 +14,7 @@ export const ProjectsReview = () => {
         <button className="projects-review__project project3">3</button>
       </section>
       <Link to="/projects" className="projects-review__btn">
-        More projects
+        All projects
       </Link>
     </section>
   );

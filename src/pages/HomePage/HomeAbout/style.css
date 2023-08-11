@@ -29,7 +29,7 @@
   text-align: center;
   width: 140px;
   color: #f7f6f4;
-  border: 1px solid #f7f6f4;
+  border: 0.3px solid #f7f6f4;
   border-radius: 10px;
   background-color: #515b41;
   padding: 0.5rem;
@@ -50,7 +50,7 @@
   .home-about {
     display: flex;
     align-items: center;
-    background-color: #e0ded8;
+    background-color: #d3cbc3;
     background-size: cover;
     background-position: center;
     height: 25vh;
