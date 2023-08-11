@@ -3,14 +3,16 @@
   justify-content: space-evenly;
   align-items: center;
   background-image: url("./img/kami.jpeg");
+  filter: grayscale(30%);
   background-size: cover;
   background-position: center;
   height: 30vh;
   width: 100vw;
+  margin-top: 6vh;
 }
 
 .home-about__hue {
-  background-color: #4049326f;
+  background-color: #ecd5d88e;
   width: 100vw;
   height: 30vh;
 }
@@ -21,9 +23,22 @@
   padding: 20px;
   width: 50vw;
   height: 20vh;
-  background-color: #ecd5d8;
+  color: #f2f3ec;
+  background-color: #515b41;
   -webkit-box-shadow: 0px 0px 10px 0px #404932a8;
   -moz-box-shadow: 0px 0px 10px 0px #404932a8;
   box-shadow: 0px 0px 10px 0px #404932a8;
   cursor: pointer;
+}
+
+.home-about__btn {
+  text-decoration: none;
+  color: #3B3923;
+  background-color: #f9f0f1;
+  padding: 0.5rem;
+  border-radius: 2px;
+}
+
+.home-about__btn:hover {
+  border-bottom: 1.5px solid #3B3923;
 }

@@ -7,7 +7,7 @@ export const HomeAbout = () => {
     <section className="home-about">
       <div className="home-about__hue">
         <div className="home-about__textbox">
-          <h2>Hi, my name is Kamila...</h2>
+          <h2>Hello, my name is Kamila!</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
             praesentium in voluptatem, quaerat ex, eum consectetur aperiam
@@ -15,7 +15,10 @@ export const HomeAbout = () => {
             voluptatum maxime vero repudiandae reiciendis ipsa dolorum aliquam
             assumenda ipsam.
           </p>
-          <Link to={'/about'}> More about me</Link>
+          <Link to={'/about'} className="home-about__btn">
+            {' '}
+            More about me
+          </Link>
         </div>
       </div>
     </section>

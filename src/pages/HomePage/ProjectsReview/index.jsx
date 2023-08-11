@@ -12,8 +12,6 @@ export const ProjectsReview = () => {
         </button>
         <button className="projects-review__project project2">2</button>
         <button className="projects-review__project project3">3</button>
-        <button className="projects-review__project project4">4</button>
-        <button className="projects-review__project project5">5</button>
       </section>
       <Link to="/projects" className="projects-review__btn">
         More projects
