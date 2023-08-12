@@ -21,7 +21,7 @@ export const Header = () => {
 
   return (
     <header className="header">
-      <h1 className="header__title">Kamila Semotánová</h1>
+      <img src={require('./img/logo-ks.jpg')} alt="logo-home" className='header__logo'/>
       <nav className="header__navigation">
         <ul className="header__menu--pc">
           <li>

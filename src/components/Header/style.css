@@ -14,12 +14,8 @@
   top: 0;
 }
 
-.header__title {
-  font-family: 'Karla', sans-serif;
-  font-size: 18px;
-  text-transform: uppercase;
-  text-align: left;
-  color: #3B3923;
+.header__logo {
+  width: 40vw;
 }
 
 .header__photo {
