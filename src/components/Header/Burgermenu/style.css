@@ -31,10 +31,3 @@
   text-decoration: none;
   color: #3B3923;
 }
-
-@media (min-width: 768px) {
-  .menu__box {
-    width: 25vw;
-    border-radius: 0 0 0 10px;
-  }
-}
