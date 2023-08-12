@@ -1,9 +1,9 @@
 .menu__box {
   position: absolute;
-  top: 5vh;
+  top: 90px;
   right: 0;
   display: block;
-  background-color: #ffffff;
+  background-color: #f7f6f4;
   width: 100vw;
   z-index: 10;
   border-bottom: 1px solid #949d94;
@@ -19,7 +19,7 @@
 }
 
 .menu__box ul li:hover {
-  background-color: #e1e6cf;
+  background-color: #d3cbc3;
 }
 
 .menu__box a {
@@ -30,12 +30,6 @@
 .menu__box-item {
   text-decoration: none;
   color: #3B3923;
-}
-
-@media (min-width: 403px) {
-  .menu__box {
-    top: 7vh;
-  }
 }
 
 @media (min-width: 768px) {
