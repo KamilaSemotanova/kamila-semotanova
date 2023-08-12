@@ -43,19 +43,14 @@
 @media (min-width: 601px) {
   .header {
     flex-direction: column;
-    position: unset;
+    padding: 1.7rem;
+    height: 190px;
   }
 
-  .header__title {
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    text-align: center;
-    height: 60px;
-    font-size: 28px;
-    font-weight: 700;
-    padding-top: 20px;
-    background-color: #f7f6f4;
+  .header__logo {
+    top: 1.7rem;
+    left: calc((100vw - 2rem - 200px)/2);
+    height: 80px;
   }
 
   .header__menu--phone {
@@ -67,20 +62,19 @@
   }
 
   .active {
-    border-bottom: 1.5px solid #3B3923;
+    border-bottom: 1.3px solid #3B3923;
   }
 
   .menu__box-item:hover {
-    border-bottom: 1.5px solid #3B3923;
+    border-bottom: 1.3px solid #3B3923;
   }
 
   .header__navigation {
-    position: fixed;
-    top: 60px;
+    position: absolute;
+    top: calc(1.7rem + 110px);
     background-color: #f7f6f4;
     width: 100vw;
     height: 38px;
-    margin-bottom: 20px;
     padding-bottom: 3px;
     display: flex;
     justify-content: center;
@@ -90,43 +84,52 @@
     display: flex;
     gap: 2vw;
     list-style: none;
-    font-family: 'Karla', sans-serif;
     text-transform: uppercase;
     font-size: 17px;
     letter-spacing: 1px;
   }
 }
 
-@media (min-width: 669px) {
-  .header__navigation {
-    top: 70px;
-    height: 50px;
-  }
-
-  .header__menu--pc {
-    gap: 3vw;
-    font-size: 20px;
-  }
-}
-
 @media (min-width: 993px) {
+  .header {
+    padding: 2rem;
+    height: 240px;
+  }
+
+  .header__logo {
+    top: 2rem;
+    left: calc((100vw - 2rem - 240px)/2);
+    height: 100px;
+  }
+
   .header__navigation {
-    top: 90px;
+    top: calc(2rem + 140px);
   }
 
   .header__menu--pc {
     gap: 4vw;
-    font-size: 22px;
+    font-size: 25px;
   }
 }
 
 @media (min-width: 1201px) {
+  .header {
+    padding: 2.5rem;
+    height: 290px;
+  }
+
+  .header__logo {
+    top: 2.5rem;
+    left: calc((100vw - 2.5rem - 320px)/2);
+    height: 120px;
+  }
+
   .header__navigation {
-    top: 120px;
+    top: calc(2.5rem + 160px);
   }
 
   .header__menu--pc {
     gap: 5vw;
-    font-size: 26px;
+    font-size: 28px;
   }
 }
