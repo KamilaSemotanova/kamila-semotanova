@@ -53,7 +53,7 @@
     background-color: #d3cbc3;
     background-size: cover;
     background-position: center;
-    height: 25vh;
+    height: calc(100vw/3);
     width: 100vw;
     margin-top: 3vh;
   }
@@ -62,7 +62,7 @@
     margin: 0;
     padding: 23px;
     width: 70vw;
-    height: 15vh;
+    height: calc((100vw/3) - 12rem);
     color: #f2f3ec;
     background-color: #515b41;
     -webkit-box-shadow: 0px 0px 10px 0px #404932a8;
@@ -75,7 +75,7 @@
   .home-about__photo {
     margin: 0 0 0 10vw;
     width: 45vw;
-    height: 20vh;
+    height: calc((100vw/3) - 5rem);
     border-radius: 5px;
     display: flex;
     background-image: url("./img/kami.jpg");
