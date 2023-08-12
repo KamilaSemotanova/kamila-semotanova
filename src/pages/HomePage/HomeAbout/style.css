@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-around;
   margin: 5vh 7.5vw;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 20px;
   width: 85vw;
   height: 20vh;
@@ -76,12 +76,12 @@
     margin: 0 0 0 10vw;
     width: 45vw;
     height: 20vh;
-    border-radius: 10px;
+    border-radius: 5px;
     display: flex;
-    background-image: url("./img/kami.jpeg");
+    background-image: url("./img/kami.jpg");
     background-size: cover;
     background-position: right;
-    filter: drop-shadow();
+    filter: grayscale(90%);
     z-index: 1;
   }
 }

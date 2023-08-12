@@ -24,7 +24,7 @@
 .projects-review__project {
   color: white;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   -webkit-box-shadow: 0px 0px 10px 0px #C2CFB2;
   -moz-box-shadow: 0px 0px 10px 0px #C2CFB2;
   box-shadow: 0px 0px 10px 0px #C2CFB2;
