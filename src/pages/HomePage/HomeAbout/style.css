@@ -6,7 +6,7 @@
   border-radius: 5px;
   padding: 20px;
   width: 85vw;
-  height: 20vh;
+  height: calc(100vw/3);
   color: #f2f3ec;
   background-color: #515b41;
   -webkit-box-shadow: 0px 0px 10px 0px #404932a8;
