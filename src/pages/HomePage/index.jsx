@@ -3,6 +3,7 @@ import './style.css';
 import { ProjectsReview } from './ProjectsReview';
 import { HomeAbout } from './HomeAbout';
 import { Contact } from './Contact';
+import { Footer } from '../../components/Footer';
 
 export const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ export const HomePage = () => {
           <HomeAbout />
           <ProjectsReview />
           <Contact />
+          <Footer />
         </div>
       </main>
     </>
