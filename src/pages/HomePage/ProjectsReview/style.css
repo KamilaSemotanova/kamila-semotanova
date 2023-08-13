@@ -1,4 +1,6 @@
 .projects-review {
+  width: 100vw;
+  height: 450px;
   display: flex;
   flex-direction: column;
   align-items: center;
