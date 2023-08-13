@@ -19,7 +19,7 @@
 .header__logo {
   height: 50px;
   position: absolute;
-  left: calc((100vw - 2rem - 110px)/2);
+  left: calc((100vw - 2rem - 105px)/2);
 }
 
 .header__photo {
