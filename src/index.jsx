@@ -4,7 +4,6 @@ import './style.css';
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import { HomePage } from './pages/HomePage';
 import { ErrorPage } from './pages/ErrorPage';
-import { ContactPage } from './pages/ContactPage';
 import { AboutPage } from './pages/AboutPage';
 import { ProjectPage } from './pages/ProjectPage';
 import { Header } from './components/Header';
@@ -29,10 +28,6 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <HomePage />,
-      },
-      {
-        path: '/contact',
-        element: <ContactPage />,
       },
       {
         path: '/about',

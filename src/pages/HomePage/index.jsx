@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 import { ProjectsReview } from './ProjectsReview';
 import { HomeAbout } from './HomeAbout';
+import { Contact } from './Contact';
 
 export const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ export const HomePage = () => {
         <div className="hopmepage__container">
           <HomeAbout />
           <ProjectsReview />
+          <Contact />
         </div>
       </main>
     </>
