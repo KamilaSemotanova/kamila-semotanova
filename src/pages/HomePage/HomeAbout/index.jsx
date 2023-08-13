@@ -6,7 +6,7 @@ export const HomeAbout = () => {
   return (
     <section className="home-about">
       <div className="home-about__photo"></div>
-      <div className="home-about__container">
+      <div>
         <div className="home-about__textbox">
           <h2 className="home-about__greeting">Hello,</h2>
           <p className="home-about__text">
