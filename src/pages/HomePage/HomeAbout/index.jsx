@@ -6,18 +6,18 @@ export const HomeAbout = () => {
   return (
     <section className="home-about">
       <div className="home-about__photo"></div>
-      <div className="home-about__textbox">
-        <h2 className="home-about__greeting">Hello,</h2>
-        <p>
-          I am an enthusiastic Junior Front-End Developer with a blend of skills
-          that extend seamlessly into the realm of UX/UI. My meticulous
-          attention to detail, coupled with an insatiable eagerness to learn,
-          sets me apart in my pursuit of excellence.
-        </p>
+      <div className="home-about__container">
+        <div className="home-about__textbox">
+          <h2 className="home-about__greeting">Hello,</h2>
+          <p className="home-about__text">
+            my name is Kamila and I am an Junior Front-End Developer with skills
+            of UX/UI designer.
+          </p>
+        </div>
+        <Link to={'/about'} className="home-about__btn">
+          More about me
+        </Link>
       </div>
-      <Link to={'/about'} className="home-about__btn">
-        More about me
-      </Link>
     </section>
   );
 };
