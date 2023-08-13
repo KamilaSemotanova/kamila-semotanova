@@ -6,7 +6,7 @@
   border-radius: 5px;
   padding: 20px;
   width: 85vw;
-  height: 250px;
+  height: 280px;
   color: #f2f3ec;
   background-color: #515b41;
   -webkit-box-shadow: 0px 0px 10px 0px #404932a8;
@@ -17,9 +17,9 @@
 }
 
 .home-about__greeting {
-  width: 16vw;
   text-transform: uppercase;
-  font-size: 35px;
+  font-size: 28px;
+  font-weight: 400;
 }
 
 .home-about__btn {
@@ -27,19 +27,19 @@
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
-  width: 140px;
-  color: #f7f6f4;
-  border: 0.3px solid #f7f6f4;
-  border-radius: 10px;
-  background-color: #515b41;
-  padding: 0.5rem;
-  border-radius: 2px;
-}
-
-.home-about__btn:hover {
   color: #515b41;
   border: 1px solid #515b41;
   background-color: #f7f6f4;
+  border-radius: 5px;
+  padding: 0.5rem;
+  position: relative;
+  left: 30vw;
+}
+
+.home-about__btn:hover {
+  color: #f7f6f4;
+  border: 1px solid #f7f6f4;
+  background-color: #515b41;
 }
 
 .home-about__photo {
