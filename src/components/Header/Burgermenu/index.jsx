@@ -21,11 +21,6 @@ export const Menu = () => {
             Projects
           </Link>
         </li>
-        <li>
-          <Link to={'/contact'} className="menu__box-item">
-            Contact
-          </Link>
-        </li>
       </ul>
     </nav>
   );

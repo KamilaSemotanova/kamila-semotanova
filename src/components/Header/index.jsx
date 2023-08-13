@@ -70,20 +70,6 @@ export const Header = () => {
               Projects
             </NavLink>
           </li>
-          <li>
-            <NavLink
-              to={'/contact'}
-              className={({ isActive, isPending }) =>
-                isPending
-                  ? 'pending menu__box-item'
-                  : isActive
-                  ? 'active menu__box-item'
-                  : 'menu__box-item'
-              }
-            >
-              Contact
-            </NavLink>
-          </li>
         </ul>
       </nav>
       <div className="header__menu--phone">
