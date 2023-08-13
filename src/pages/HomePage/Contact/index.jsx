@@ -4,7 +4,7 @@ import { Form } from './Form';
 
 export const Contact = () => {
   return (
-    <section className="contact-page">
+    <section className="contact">
       <Form />
     </section>
   );
