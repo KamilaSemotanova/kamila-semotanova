@@ -64,7 +64,7 @@
   height: 180px;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 401px) {
   .home-about {
     height: 550px;
   }
@@ -87,7 +87,7 @@
   }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 501px) {
   .home-about {
     height: 630px;
   }
@@ -117,35 +117,65 @@
     background-color: #d3cbc3;
     background-size: cover;
     background-position: center;
-    height: calc(100vw/3);
+    height: 380px;
     width: 100vw;
-    margin-top: 3vh;
   }
 
   .home-about__textbox {
     margin: 0;
     padding: 23px;
-    width: 70vw;
-    height: calc((100vw/3) - 12rem);
+    width: 50vw;
+    height: 230px;
     color: #f2f3ec;
     background-color: #515b41;
     -webkit-box-shadow: 0px 0px 10px 0px #404932a8;
     -moz-box-shadow: 0px 0px 10px 0px #404932a8;
     box-shadow: 0px 0px 10px 0px #404932a8;
     position: relative;
-    right: 10vw;
+    right: 8vw;
+    top: 15px;
   }
 
   .home-about__photo {
     margin: 0 0 0 10vw;
     width: 45vw;
-    height: calc((100vw/3) - 5rem);
+    height: 330px;
     border-radius: 5px;
     display: flex;
     background-image: url("./img/kami.jpg");
     background-size: cover;
-    background-position: right;
+    background-position: center;
     filter: grayscale(90%);
     z-index: 1;
+  }
+
+  .home-about__btn {
+    left: 7vw;
+    top: 55px;
+    width: 27vw;
+    left: calc(30vw/2);
+  }
+}
+
+
+@media (min-width: 993px) {
+  .home-about {
+    height: 450px;
+  }
+
+  .home-about__photo {
+    height: 330px;
+  }
+
+  .home-about__greeting {
+    font-size: 30px;
+  }
+
+  .home-about__text {
+    font-size: 30px;
+  }
+
+  .home-about__btn {
+    font-size: 26px;
   }
 }
