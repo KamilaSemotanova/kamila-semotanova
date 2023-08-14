@@ -12,10 +12,11 @@ export const AboutPage = () => {
   return (
     <section className="about-page">
       <div className="about-page__box">
-        <div>
+        <div className="about-page__container">
           <div className="about-page__title-box first-box">
-            <div className="about-page__photo first"></div>
-            <h3 className="about-page__title">Who am I?</h3>
+            <div className="about-page__photo first">
+              <h3 className="about-page__title">Who am I?</h3>
+            </div>
           </div>
           <div className="about-page__section">
             <p>
@@ -27,12 +28,11 @@ export const AboutPage = () => {
             </p>
           </div>
         </div>
-        <div>
+        <div className="about-page__container">
           <div className="about-page__title-box second-box">
-            <div className="about-page__photo second"></div>
-            <h3 className="about-page__title">
-              What is my work life so far including?
-            </h3>
+            <div className="about-page__photo second">
+              <h3 className="about-page__title">My work expierence so far?</h3>
+            </div>
           </div>
           <div className="about-page__section">
             <p>
@@ -51,12 +51,13 @@ export const AboutPage = () => {
             </p>
           </div>
         </div>
-        <div>
+        <div className="about-page__container">
           <div className="about-page__title-box third-box">
-            <div className="about-page__photo third"></div>
-            <h3 className="about-page__title">
-              Where did passion for IT came from?
-            </h3>
+            <div className="about-page__photo third">
+              <h3 className="about-page__title">
+                Where did passion for IT came from?
+              </h3>
+            </div>
           </div>
           <div className="about-page__section">
             <p>
@@ -75,10 +76,11 @@ export const AboutPage = () => {
             </p>
           </div>
         </div>
-        <div>
+        <div className="about-page__container">
           <div className="about-page__title-box fourth-box">
-            <div className="about-page__photo fourth"></div>
-            <h3 className="about-page__title">What are my skills?</h3>
+            <div className="about-page__photo fourth">
+              <h3 className="about-page__title">What are my skills?</h3>
+            </div>
           </div>
           <div className="about-page__section">
             <ul>
@@ -87,10 +89,13 @@ export const AboutPage = () => {
             </ul>
           </div>
         </div>
-        <div>
+        <div className="about-page__container">
           <div className="about-page__title-box fifth-box">
-            <div className="about-page__photo fifth"></div>
-            <h3 className="about-page__title">What did I already achieved?</h3>
+            <div className="about-page__photo fifth">
+              <h3 className="about-page__title">
+                What did I already achieved?
+              </h3>
+            </div>
           </div>
           <div className="about-page__section">
             <p>
@@ -106,12 +111,13 @@ export const AboutPage = () => {
             </Link>
           </div>
         </div>
-        <div>
+        <div className="about-page__container">
           <div className="about-page__title-box sixth-box">
-            <div className="about-page__photo sixth"></div>
-            <h3 className="about-page__title">
-              Would you like to get in touch with?
-            </h3>
+            <div className="about-page__photo sixth">
+              <h3 className="about-page__title">
+                Would you like to get in touch with?
+              </h3>
+            </div>
           </div>
           <div className="about-page__section">
             <p>
