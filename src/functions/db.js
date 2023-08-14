@@ -4,7 +4,6 @@ export async function LoadProjects() {
   const { data } = await supabase
     .from('Projects')
     .select()
-    .order('date_of_event', { ascending: true });
   return data;
 }
 

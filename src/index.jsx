@@ -7,6 +7,7 @@ import { ErrorPage } from './pages/ErrorPage';
 import { AboutPage } from './pages/AboutPage';
 import { ProjectPage } from './pages/ProjectPage';
 import { Header } from './components/Header';
+import { Detail } from './pages/ProjectPage/Detail';
 
 const App = () => {
   return (
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: '/projects',
         element: <ProjectPage />,
+      },
+      {
+        path: 'projects/:id',
+        element: <Detail />,
       },
     ],
   },

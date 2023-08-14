@@ -1,0 +1,23 @@
+.project-page {
+  width: 100vw;
+  background-color: #f7f6f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-page__title {
+  text-transform: uppercase;
+}
+
+.project-page__box {
+  width: 95vw;
+  border-bottom: 1px solid #3B3923;
+}
+
+.project-page__name {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #3B3923;
+  cursor: pointer;
+}
