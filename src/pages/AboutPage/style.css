@@ -1,0 +1,53 @@
+.about-page {
+  width: 100vw;
+  background-color: #f7f6f4;
+}
+
+.about-page__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.about-page__section {
+  width: 85vw;
+  color: #f7f6f4;
+  background-color: #3B3923;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.about-page__link {
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px;
+  border: 1px solid #f7f6f4;
+  border-radius: 5px;
+  background-color: #3B3923;
+  color: #f7f6f4;
+}
+
+.about-page__link:hover {
+  border: 1px solid #3B3923;
+  background-color: #f7f6f4;
+  color: #3B3923;
+}
+
+.about-page__btn {
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #3B3923;
+
+  padding: 5px;
+  border: 1px solid #3B3923;
+  border-radius: 5px;
+}
+
+.about-page__btn:hover {
+  border: 1px solid #f7f6f4;
+  background-color: #3B3923;
+  color: #f7f6f4;
+}
