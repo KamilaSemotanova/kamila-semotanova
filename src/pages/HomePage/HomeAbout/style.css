@@ -128,7 +128,7 @@
     box-shadow: 0px 0px 10px 0px #404932a8;
     position: relative;
     right: 8vw;
-    top: 15px;
+    top: -10px;
   }
 
   .home-about__photo {
@@ -147,7 +147,7 @@
   .home-about__btn {
     background-color: #d3cbc3;
     left: 7vw;
-    top: 55px;
+    bottom: -30px;
     width: 27vw;
     left: calc(30vw/2);
   }
@@ -177,5 +177,6 @@
 
   .home-about__btn {
     font-size: 26px;
+    bottom: -50px;
   }
 }

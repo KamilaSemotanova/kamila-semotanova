@@ -3,8 +3,11 @@ import './style.css';
 
 export const ErrorPage = () => {
   return (
-    <section>
-      <p>Nic tu není</p>
+    <section className="error__picture">
+      <div className="error__box">
+        <p>404 </p>
+        <p>Page not found</p>
+      </div>
     </section>
   );
 };
