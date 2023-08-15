@@ -27,6 +27,7 @@
 
 .projects-review__project {
   text-decoration: none;
+  text-transform: uppercase;
   color: #f7f6f4;
   border: none;
   border-radius: 5px;
@@ -68,8 +69,6 @@
 .project3:hover {
   background: #d3cbc3;
 }
-
-.project-review__name {}
 
 .projects-review__btn {
   color: #3B3923;

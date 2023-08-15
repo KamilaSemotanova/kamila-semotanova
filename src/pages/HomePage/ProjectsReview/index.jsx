@@ -59,7 +59,7 @@ export const ProjectsReview = () => {
               to={`/projects/${project1.id}`}
               className="projects-review__project project3"
             >
-              <span className="project-review__name">{project1.name}</span>
+              <span>{project1.name}</span>
             </Link>
           </>
         )}
