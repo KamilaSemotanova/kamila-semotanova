@@ -8,15 +8,19 @@ export const HomeAbout = () => {
       <div className="home-about__photo"></div>
       <div>
         <div className="home-about__textbox">
-          <h2 className="home-about__greeting">Hello,</h2>
-          <p className="home-about__text">
-            my name is Kamila and I am an Junior Front-End Developer with skills
-            of UX/UI designer.
-          </p>
+          <p className="home-about__quotation quotation-first">“</p>
+          <div>
+            <h2 className="home-about__greeting">Hello,</h2>
+            <p className="home-about__text">
+              my name is Kamila and I am an Junior Front-End Developer with
+              skills of UX/UI designer.
+            </p>
+            <Link to={'/about'} className="home-about__btn">
+              More about me
+            </Link>
+          </div>
+          <p className="home-about__quotation quotation-second">”</p>
         </div>
-        <Link to={'/about'} className="home-about__btn">
-          More about me
-        </Link>
       </div>
     </section>
   );

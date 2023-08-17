@@ -1,19 +1,29 @@
-.home-about__textbox {
+.home-about {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.home-about__textbox {
+  display: flex;
   justify-content: space-around;
-  margin: 5vh 7.5vw;
+  margin: 2vh 7.5vw;
   border-radius: 5px;
   padding: 20px;
   width: 85vw;
   height: auto;
-  color: #f2f3ec;
-  background-color: #515b41;
-  -webkit-box-shadow: 0px 0px 10px 0px #404932a8;
-  -moz-box-shadow: 0px 0px 10px 0px #404932a8;
-  box-shadow: 0px 0px 10px 0px #404932a8;
-  cursor: pointer;
+  color: #515b41;
   z-index: 2;
+}
+
+.home-about__quotation {
+  color: #515b41;
+  font-size: 60px;
+}
+
+.quotation-second {
+  display: flex;
+  align-items: end;
 }
 
 .home-about__greeting {
@@ -55,8 +65,14 @@
   background-image: url("./img/kami.jpg");
   background-size: cover;
   background-position: right;
-  width: 100vw;
+  width: 85vw;
   height: 180px;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: #515b41;
+  -webkit-box-shadow: 0px 0px 10px 0px #404932a8;
+  -moz-box-shadow: 0px 0px 10px 0px #404932a8;
+  box-shadow: 0px 0px 10px 0px #404932a8;
 }
 
 @media (min-width: 401px) {
@@ -107,8 +123,7 @@
 
 @media (min-width: 601px) {
   .home-about {
-    display: flex;
-    align-items: center;
+    flex-direction: row;
     background-color: #d3cbc3;
     background-size: cover;
     background-position: center;
