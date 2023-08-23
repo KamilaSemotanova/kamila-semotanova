@@ -152,6 +152,10 @@
     width: 100vw;
   }
 
+  .home-about__introbox {
+    justify-content: center;
+  }
+
   .home-about__textbox {
     margin: 0;
     padding: 23px;
