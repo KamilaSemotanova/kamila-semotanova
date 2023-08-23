@@ -26,6 +26,8 @@
 }
 
 .projects-review__project {
+  display: flex;
+  justify-content: center;
   text-decoration: none;
   text-transform: uppercase;
   color: #f7f6f4;
@@ -46,6 +48,14 @@
   box-shadow: 0px 0px 10px 0px #d3cbc3;
 }
 
+.projects-review__project-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
 .project1 {
   background-color: #213d26;
 }
@@ -60,6 +70,15 @@
 
 .project2:hover {
   background: #d3cbc3;
+}
+
+.material-symbols-outlined {
+  font-size: 40px;
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
 }
 
 .project3 {
