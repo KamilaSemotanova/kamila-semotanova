@@ -7,7 +7,9 @@
 .home-about__textbox {
   display: flex;
   justify-content: space-around;
-  margin: 2vh 7.5vw;
+  margin-top: 2vh;
+  margin-left: 7.5vw;
+  margin-right: 7.5vw;
   border-radius: 5px;
   padding: 20px;
   width: 85vw;
@@ -21,9 +23,22 @@
   font-size: 60px;
 }
 
+.quotation-first {
+  position: relative;
+  bottom: 15px;
+}
+
 .quotation-second {
   display: flex;
   align-items: end;
+  position: relative;
+  top: 35px;
+}
+
+.home-about__introbox {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .home-about__greeting {
@@ -120,7 +135,14 @@
   }
 }
 
+
 @media (min-width: 601px) {
+  .home-about {
+    height: 575px;
+  }
+}
+
+@media (min-width: 768px) {
   .home-about {
     flex-direction: row;
     background-color: #d3cbc3;
