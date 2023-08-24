@@ -1,6 +1,6 @@
 .projects-review {
   width: 100vw;
-  height: 450px;
+  height: fit-content;
 
   background-color: #f7f6f4;
   display: flex;
@@ -9,7 +9,7 @@
   justify-content: center;
   gap: 20px;
 
-  margin: 30px 0;
+  margin: 50px 0;
 }
 
 .projects-review__box {
@@ -23,6 +23,7 @@
 .projects-review__title {
   color: #3B3923;
   text-transform: uppercase;
+  font-size: 1.5em;
 }
 
 .projects-review__project {
@@ -91,12 +92,16 @@
 
 .projects-review__btn {
   color: #3B3923;
-  padding: 5px 8px;
+  padding: 0.5rem;
   border: 0.3px solid #3B3923;
   border-radius: 3px;
   background-color: #f7f6f4;
   text-decoration: none;
   text-transform: uppercase;
+  font-size: 14px;
+  width: 35vw;
+  display: flex;
+  justify-content: center;
 }
 
 .projects-review__btn:hover {
@@ -106,7 +111,17 @@
   background-color: #3B3923;
 }
 
+@media (min-width:501px) {
+  .projects-review__btn {
+    font-size: 19px;
+  }
+}
+
 @media (min-width: 601px) {
+  .projects-review__title {
+    font-size: 2.5em;
+  }
+
   .projects-review__box {
     flex-direction: row;
     flex-wrap: wrap;
@@ -115,5 +130,67 @@
   .projects-review__project {
     width: calc((85vw - 40px)/3);
     height: calc((85vw - 40px)/3);
+  }
+
+  .material-symbols-outlined {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .projects-review {
+    gap: 50px;
+  }
+
+  .material-symbols-outlined {
+    font-size: 55px;
+  }
+
+  .project-review__name {
+    font-size: 20px;
+  }
+
+  .projects-review__btn {
+    width: 27vw;
+  }
+}
+
+@media (min-width: 993px) {
+  .projects-review {
+    gap: 60px;
+  }
+
+  .projects-review__title {
+    font-size: 3.5em;
+  }
+
+  .material-symbols-outlined {
+    font-size: 75px;
+  }
+
+  .project-review__name {
+    font-size: 25px;
+  }
+
+  .projects-review__btn {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .projects-review__title {
+    font-size: 4.5em;
+  }
+
+  .material-symbols-outlined {
+    font-size: 100px;
+  }
+
+  .project-review__name {
+    font-size: 30px;
+  }
+
+  .projects-review__btn {
+    font-size: 35px;
   }
 }

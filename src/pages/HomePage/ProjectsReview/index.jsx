@@ -39,7 +39,7 @@ export const ProjectsReview = () => {
               to={`/projects/${project3.id}`}
               className="projects-review__project project1"
             >
-              <div className='projects-review__project-box'>
+              <div className="projects-review__project-box">
                 <span class="material-symbols-outlined">menu_book</span>
                 <div className="project-review__name">{project3.name}</div>
               </div>
@@ -52,7 +52,7 @@ export const ProjectsReview = () => {
               to={`/projects/${project2.id}`}
               className="projects-review__project project2"
             >
-              <div className='projects-review__project-box'>
+              <div className="projects-review__project-box">
                 <span class="material-symbols-outlined">liquor</span>
                 <div className="project-review__name">{project2.name}</div>
               </div>
@@ -65,9 +65,9 @@ export const ProjectsReview = () => {
               to={`/projects/${project1.id}`}
               className="projects-review__project project3"
             >
-              <div className='projects-review__project-box'>
+              <div className="projects-review__project-box">
                 <span class="material-symbols-outlined">science</span>
-                <div>{project1.name}</div>
+                <div className="project-review__name">{project1.name}</div>
               </div>
             </Link>
           </>
