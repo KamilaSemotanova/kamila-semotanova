@@ -12,7 +12,7 @@
 
 .project-page__container {
   margin: 30px 0;
-  height: 62vh;
+  height: 90vh;
 }
 
 .project-page__box {
@@ -33,5 +33,10 @@
   text-decoration: none;
   text-transform: uppercase;
   color: #3B3923;
+  border-bottom: 1px solid #f7f6f4;
   cursor: pointer;
+}
+
+.project-page__name:hover {
+  border-bottom: 1px solid #3B3923;
 }
