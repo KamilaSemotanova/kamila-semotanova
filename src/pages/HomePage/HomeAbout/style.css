@@ -23,12 +23,12 @@
   padding: 20px;
   width: 85vw;
   height: auto;
-  color: #515b41;
+  color: #3B3923;
   z-index: 2;
 }
 
 .home-about__quotation {
-  color: #515b41;
+  color: #3B3923;
   font-size: 60px;
 }
 
@@ -69,8 +69,8 @@
   text-transform: uppercase;
   font-size: 14px;
   text-align: center;
-  color: #515b41;
-  border: 1px solid #515b41;
+  color: #3B3923;
+  border: 1px solid #3B3923;
   background-color: #f7f6f4;
   border-radius: 5px;
   padding: 0.5rem;
@@ -81,8 +81,8 @@
 
 .home-about__btn:hover {
   color: #f7f6f4;
-  border: 1px solid #515b41;
-  background-color: #515b41;
+  border: 1px solid #3B3923;
+  background-color: #3B3923;
 }
 
 .home-about__photo {
@@ -135,6 +135,7 @@
 @media (min-width: 768px) {
   .home-about {
     flex-direction: row;
+    justify-content: space-between;
     background-color: #d3cbc3;
     background-size: cover;
     background-position: center;
@@ -142,51 +143,42 @@
     width: 100vw;
   }
 
-  .home-about__introbox {
-    justify-content: center;
-  }
-
-  .home-about__textbox {
-    margin: 0;
-    padding: 23px;
-    width: 50vw;
-    height: 230px;
-    color: #f2f3ec;
-    background-color: #515b41;
-    -webkit-box-shadow: 0px 0px 10px 0px #404932a8;
-    -moz-box-shadow: 0px 0px 10px 0px #404932a8;
-    box-shadow: 0px 0px 10px 0px #404932a8;
-    position: relative;
-    right: 8vw;
-    top: -10px;
-  }
-
   .home-about__photo {
     margin: 0 0 0 10vw;
-    width: 45vw;
+    width: 40vw;
     height: 330px;
     border-radius: 5px;
     display: flex;
     background-image: url("./img/kami.jpg");
     background-size: cover;
     background-position: center;
-    filter: grayscale(90%);
     z-index: 1;
+  }
+
+  .home-about__container {
+    width: 40vw;
+  }
+
+  .home-about__textbox {
+    margin: 0;
+    padding: 23px;
+    width: 45vw;
+    height: 280px;
+    position: relative;
+    right: 8vw;
+    top: -10px;
   }
 
   .home-about__btn {
     background-color: #d3cbc3;
     left: 7vw;
-    bottom: -30px;
     width: 27vw;
-    left: calc(30vw/2);
   }
 
   .home-about__btn:hover {
     border: 1px solid #d3cbc3;
   }
 }
-
 
 @media (min-width: 993px) {
   .home-about {
@@ -207,12 +199,10 @@
 
   .home-about__btn {
     font-size: 26px;
-    bottom: -50px;
   }
 }
 
-
-@media (min-width: 993px) {
+@media (min-width: 1201px) {
   .home-about__btn {
     font-size: 35px;
   }
