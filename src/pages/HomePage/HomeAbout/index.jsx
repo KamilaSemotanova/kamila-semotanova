@@ -7,7 +7,7 @@ export const HomeAbout = () => {
     <section className="home-about">
       <div className="home-about__photo"></div>
       <div>
-        <div className="home-about__introbox">
+        <div className="home-about__container">
           <div className="home-about__textbox">
             <p className="home-about__quotation quotation-first">“</p>
             <div className="home-about__introbox">
