@@ -17,31 +17,35 @@ export const Detail = () => {
   }, []);
 
   return (
-    <section className="detail">
-      {project && (
-        <>
-          <h1>{project.name}</h1>
-          <a href={project.link}>{project.link}</a>
-          <div>
+    <>
+      <section className="detail">
+        {project && (
+          <>
+            <h1 className="detail__title">{project.name}</h1>
+            <a href={project.link} className="detail__link">
+              {project.link}
+            </a>
             <div>
               {project.progress !== 'done' ? (
-                <>
+                <div className="detail__progress">
                   <p>Progress: {project.progress}</p>
                   <p>To do: {project.todo}</p>
-                </>
+                </div>
               ) : (
                 <p>This project is {project.progress}</p>
               )}
+              <p className="detail__about">{project.about}</p>
+              <p>{project.proposal}</p>
             </div>
-            <p>{project.about}</p>
-            <p>{project.proposal}</p>
-          </div>
-          <div>{project.photo}</div>
-          <div>{project.video}</div>
-          <Link to={'/projects'}>Back to projects</Link>
-        </>
-      )}
+            <div>{project.photo}</div>
+            <div>{project.video}</div>
+            <Link to={'/projects'} className="detail__btn">
+              Back to projects
+            </Link>
+          </>
+        )}
+      </section>
       <Footer />
-    </section>
+    </>
   );
 };
