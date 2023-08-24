@@ -4,6 +4,7 @@ export async function LoadProjects() {
   const { data } = await supabase
     .from('Projects')
     .select()
+    .order('id', { ascending: false });
   return data;
 }
 

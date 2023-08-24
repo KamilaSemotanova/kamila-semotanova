@@ -14,19 +14,21 @@ export const ProjectPage = () => {
     <section className="project-page">
       <h1 className="project-page__title">Projects</h1>
       {projects && (
-        <div>
+        <div className='project-page__container'>
           {projects.map((project, index) => {
             return (
               <div className="project-page__box" key={project.id}>
-                {/* <img src={require(`${project.logo}`)} alt="" /> */}
-                <Link
-                  to={`/projects/${project.id}`}
-                  key={project.id}
-                  className="project-page__name"
-                >
-                  {project.name}
-                </Link>
-                <p>{project.description}</p>
+                <p className='project-page__index'>{project.id}</p>
+                <div>
+                  <Link
+                    to={`/projects/${project.id}`}
+                    key={project.id}
+                    className="project-page__name"
+                  >
+                    {project.name}
+                  </Link>
+                  <p>{project.description}</p>
+                </div>
               </div>
             );
           })}
