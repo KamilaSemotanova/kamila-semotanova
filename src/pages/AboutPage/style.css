@@ -8,21 +8,17 @@
   flex-direction: column;
   align-items: center;
   gap: 40px;
+  margin-inline: 7.5vw;
 }
 
 .about-page__container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 20px;
 }
 
-.about-page__title-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  margin-bottom: 20px;
+.about-page__text {
+  color: #3B3923;
 }
 
 .about-page__photo {
@@ -42,57 +38,20 @@
   margin-top: 20px;
 }
 
-.fourth {
+.second {
   background-image: url("./img/kami_2.jpeg");
   background-size: cover;
   background-position: center;
 }
 
-.sixth {
+.third {
   background-image: url("./img/kami_6.jpeg");
   background-size: cover;
   background-position: left;
 }
 
-.about-page__title {
-  background-color: #f7f6f4;
-  color: #3B3923;
-  width: fit-content;
-  max-width: 40vw;
-  padding: 5px;
-  border-radius: 5px;
-  margin: 20px 0 0 20px;
-  word-wrap: break-word;
-}
-
-.about-page__section {
-  width: 85vw;
-  color: #f7f6f4;
-  background-color: #3B3923;
-  border-radius: 5px;
-  padding: 15px;
-  position: relative;
-  bottom: 40px;
-}
-
-.about-page__link {
-  font-size: 18px;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 5px;
-  border: 1px solid #f7f6f4;
-  border-radius: 5px;
-  background-color: #3B3923;
-  color: #f7f6f4;
-}
-
-.about-page__link:hover {
-  border: 1px solid #3B3923;
-  background-color: #f7f6f4;
-  color: #3B3923;
-}
-
 .about-page__btn {
+  width: fit-content;
   font-size: 18px;
   text-decoration: none;
   text-transform: uppercase;
